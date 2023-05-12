@@ -1,1 +1,9 @@
-#this is a test readme file
+This project uses a wide array of techniques to provide valuable insights on the variables that determine the success of Stage-1 landing of SpaceX Falcon 9 rocket launches. With a variety of Python libraries and methods we collect, wrangle, prepare and visualize Falcon 9 launch data from 2010 to 2020, which allows us to then build several classification models to predict whether Stage-1 of a rocket mission will successfully land, thus significantly reducing launch costs.    
+Summary of findings
+We find that, as the number of launches grows at a launch site, the success rate of said launch site will increase; at the same time, the success rate of all launch sites increases from 2013 onward. On the other hand, KSC LC-39A is the most successful launch site from all sites in the database, and the highest success rate orbits for launching rockets are ES-L1, GEO, HEO, SSO, and VLEO.
+Background:
+According to SpaceX official information, Falcon 9 rocket launches cost about 62 million dollars, which turns out to be significantly cheaper than launch costs of its competitors, which are above 165 million dollars each. The reason is that the first stage of Falcon 9 is reusable, provided that it lands successfully. Hence, one of the most important pieces of information for SpaceX competitors to estimate launch costs is whether a rocket mission will successfully recuperate its first stage or not.
+Problems to find answers to:
+¿What are the main factors affecting the landing outcome of the rocket?
+¿Which predictive models can better help us to estimate the landing success of a rocket?
+
